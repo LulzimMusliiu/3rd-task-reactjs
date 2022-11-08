@@ -1,0 +1,88 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(231 228 228);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .modalContainer {
+    width: 1200px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px 15px 25px;
+  }
+  .modalInfo {
+    padding: 20px 15px 40px;
+    display: flex;
+}
+.modalTitle {
+    flex: 1;
+    h1 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #484848;
+    }
+}
+.modalTheme {
+
+    h1 {
+        font-size: 14px;
+        font-weight: 600;
+        color: #2072EF;
+    }
+}
+.modalSelectContainer {
+    border-bottom: 1px solid #d5caca;
+    margin: 15px;
+}
+.modalSelect {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 25px;
+}
+.modalColorname {
+    flex: 1;
+    h1 {
+        font-size: 19px;
+        font-weight: 500;
+        color: #686868;
+    }
+}
+.modalColortag {
+
+    h1 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+}
+.modalSwitches {
+    margin-left: 10px;
+    width: 70px;
+    height: 27px;
+    border-radius: 5px;
+    border: 1px solid #d5caca;
+}
+.modalButton {
+    display: flex;
+    justify-content: end;
+    button {
+        width: 80px;
+        padding: 7px;
+        margin: 15px;
+        border: 1px solid #d5caca;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+}
+.buttonCancel {
+    color:#686868;
+}
+.buttonSave {
+    background-color: #2072EF;
+    color: #ffffff;
+}
